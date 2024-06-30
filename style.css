@@ -1,0 +1,76 @@
+@import "header.css";
+@import "about.css";
+@import "shortmovies.css";
+@import "style.css";
+@import "contacts.css";
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin: 0 auto;
+  width: 1920px;
+  height: 1080px;
+  background-color: rgb(203, 203, 203, 0.2);
+}
+
+.container_gallery {
+  padding: 75px 75px;
+}
+
+.gallery_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+  vertical-align: middle;
+  gap: 25px;
+}
+
+
+.image_sizes {
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+
+.dropdown {
+  position: absolute;
+  width: 80px;
+  height: 25px;
+  display: inline-block;
+  margin-left: -112px;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+

@@ -1,0 +1,27 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin: 0 auto;
+  width: 1920px;
+  height: 1080px;
+	background-color: rgb(203, 203, 203, 0.2);
+}
+
+.container_gallery {
+  padding: 75px 75px;
+}
+
+.gallery_wrapper {
+  display: flex;
+  flex-direction: column;
+	flex-wrap: wrap;
+	flex-flow: column;
+  gap: 25px;
+}
